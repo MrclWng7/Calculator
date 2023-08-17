@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Dosis", sans-serif;
+}
+
+.container {
+    background: linear-gradient(to bottom right, rgb(0, 0, 62), rgb(13, 13, 36));
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    background-color: ;
+}
+
+.made {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.name {
+    padding: 10px;
+    color: #33FFD8;
+}
+
+.container u {
+    color: #33FFD8;
+}
+
+.container_calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.calculator {
+    background-color: #3A4452;
+    border-radius: 10px;
+    padding: 20px;
+    border: 4px solid #33FFD8;
+    box-shadow: 0 0 10px 0 #33FFD8;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #FFF;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    border: 2px solid white;
+    background-color: #5f6876;
+    border-radius: 10px;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.clear, form input.remove {
+    width: 102px;
+}
+
+form input.ope {
+    color: #33FFD8;
+}
